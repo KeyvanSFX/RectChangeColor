@@ -1,0 +1,12 @@
+﻿<Application x:Class="RectChangeColor.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:RectChangeColor"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="StartColorBackground"  Color="Orange" />
+            <SolidColorBrush x:Key="EndColorBackground"  Color="Green" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,29 @@
+﻿<Window x:Class="RectChangeColor.Setting"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RectChangeColor"
+        mc:Ignorable="d"
+        Title="Setting" Height="450" Width="800">
+    <Grid>
+        <GroupBox Header="Background" Height="80" VerticalAlignment="Top">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.25*" />
+                    <ColumnDefinition Width="0.25*" />
+                    <ColumnDefinition Width="0.25*" />
+                    <ColumnDefinition Width="0.25*" />
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal" Grid.Column="0">
+                    <TextBlock Text="Start Color:" Margin="5,20,5,20"/>
+                    <Rectangle x:Name="StartBack" Width="40" Height="40" Fill="{DynamicResource StartColorBackground}"  Stroke="Black" MouseUp="SetMainBackground" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Column="1">
+                    <TextBlock Text="End Color:" Margin="5,20,5,20"/>
+                    <Rectangle x:Name="EndBack" Width="40" Height="40" Fill="{DynamicResource EndColorBackground}" Stroke="Black" MouseUp="SetMainBackground"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

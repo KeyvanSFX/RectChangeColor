@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectChangeColor", "RectChangeColor\RectChangeColor.csproj", "{30864F79-ADE3-4C28-9983-D9CADBD861CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30864F79-ADE3-4C28-9983-D9CADBD861CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30864F79-ADE3-4C28-9983-D9CADBD861CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30864F79-ADE3-4C28-9983-D9CADBD861CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30864F79-ADE3-4C28-9983-D9CADBD861CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B1BA77B-D878-478E-A5FE-89E3C6EC78AE}
+	EndGlobalSection
+EndGlobal
